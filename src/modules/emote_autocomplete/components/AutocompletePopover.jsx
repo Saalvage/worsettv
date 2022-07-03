@@ -1,7 +1,7 @@
 import React, {useCallback, useEffect, useRef, useState} from 'react';
 import classNames from 'classnames';
 import Popover from 'rsuite/Popover';
-import mergeRefs from 'react-merge-refs';
+import {mergeRefs} from 'react-merge-refs';
 import styles from './AutocompletePopover.module.css';
 import Emotes from './Emotes.jsx';
 import repositionPopover from '../../../utils/popover.js';
