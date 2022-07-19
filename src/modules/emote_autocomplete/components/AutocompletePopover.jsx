@@ -9,7 +9,7 @@ import useResize from '../../../common/hooks/Resize.jsx';
 
 const TOP_PADDING = 2;
 
-const EmoteMenuPopover = React.forwardRef(
+const AutocompletePopover = React.forwardRef(
   (
     {
       triggerRef,
@@ -56,4 +56,4 @@ const EmoteMenuPopover = React.forwardRef(
   }
 );
 
-export default EmoteMenuPopover;
+export default AutocompletePopover;
